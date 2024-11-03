@@ -11,6 +11,7 @@
 
 
 :root{
+   /* --bg-color :#1f242d; */
    --bg-color :#1f242d;
    --second-bg-color: #323946;
    --text-color: #fff;
@@ -30,7 +31,7 @@ body{
    top: 0;
    left: 0;
    width: 100%;
-   padding: 2rem 9%;
+   /* padding: 2rem 9%; */
    background: var(--bg-color);
    display: flex;
    justify-content: space-between;
@@ -40,11 +41,25 @@ body{
 }
 
 .navbar{
-   border: 1px solid red;
+   /* border: 1px solid red; */
    /* margin: 100%; */
    padding: 20px;
    /* display: flex; */
    justify-content: space-between;
+
+}
+
+.navbar a{
+   font-size: 1.3rem;
+   color: var(--text-color);
+   margin-left: 2rem;
+   padding: 60px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+
 
 }
 
