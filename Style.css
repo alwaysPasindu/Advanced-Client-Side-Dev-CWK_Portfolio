@@ -287,8 +287,8 @@ span{
 
 .blog-box{
    width: 350px;
-   background-color: #fcf3f3;
-   border: 1px solid wheat;
+   background-color: #e9dfdf;
+   border: 1px solid rgb(198, 189, 189);
    margin: 20px;
    border-radius:0.7rem ;
    position: relative;
@@ -416,3 +416,19 @@ span{
    cursor: pointer;
 
 }
+
+
+.footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 2rem 9%;
+   background: var(--bg-color);
+   position: relative; 
+}
+
+#tree{
+   color: var(--text-color);
+} 
+
