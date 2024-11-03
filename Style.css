@@ -190,6 +190,19 @@ span{
    margin: 2rem 0 3rem;
 }
 
+.portfolio{
+   background: var(--bg-color);
+}
+
+.portfolio h2{
+   /* border: 1px solid red; */
+   margin-bottom: 4rem;
+}
+
+
+
+
+
 
 
 
