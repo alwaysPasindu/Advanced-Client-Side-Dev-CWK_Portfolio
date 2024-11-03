@@ -199,6 +199,13 @@ span{
    margin-bottom: 4rem;
 }
 
+.portfolio-container{
+   border: 1px solid red;
+   grid-template-columns: repeat(3, 1fr);
+   display: grid;
+   align-items: center;
+   gap: 2.5rem;
+}
 
 
 
