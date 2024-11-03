@@ -22,7 +22,6 @@
 body{
    background: var(--bg-color);
    color:var(--text-color);
-
 }
 
 
@@ -49,20 +48,32 @@ body{
 
 }
 
-.navbar a{
-   font-size: 1.3rem;
+.logo{
+   font-size: 1.5rem;
    color: var(--text-color);
-   margin-left: 2rem;
-   padding: 60px;
+   font-weight: 600;
+   cursor: default;
+}
+
+.navbar a{
+   font-weight: 600;
+   font-size: 1.1rem;
+   color: var(--text-color);
+   margin-left: 1rem;
+   padding: 45px;
 }
 
 .navbar a:hover,
 .navbar a.active {
     color: var(--main-color);
 
-
 }
 
+
+.home{
+   display: flex;
+   justify-content: center;
+}
 
 
 
