@@ -10,6 +10,7 @@
 <body>
     <header class="header">
         <a href="index.html" class="logo"> alwaysPasindu.</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
 
             <nav class="navbar">
                 <a href="index.html" >HOME</a>
@@ -39,6 +40,16 @@
             <p>Copyright &copy; 2024 by <a href="https://linktr.ee/always.pasindu" id="tree"><i>Pasindu Dilshan </i></a>| All Right Reserved.</p>
         </div>
     </footer> -->
+
+    <script>
+        let menuIcon = document.querySelector('#menu-icon');
+        let navbar = document.querySelector('.navbar');
+
+        menuIcon.onclick = () => {
+            menuIcon.classList.toggle('bx-x');
+            navbar.classList.toggle('active');
+            };
+    </script>
 
 </body>
 </html>

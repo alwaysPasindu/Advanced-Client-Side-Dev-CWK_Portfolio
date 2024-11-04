@@ -76,6 +76,13 @@ section{
 }
 
 
+#menu-icon {
+   font-size: 3.6rem;
+   color: var(--text-color);
+   display: none;
+}
+
+
 .home{
    display: flex;
    justify-content: center;
@@ -432,21 +439,7 @@ span{
    color: var(--text-color);
 } 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media(max-width: 1200px) {
+@media(max-width: 1200px) {
    html {
        font-size: 55%;
    }
@@ -591,4 +584,4 @@ span{
        text-align: center;
        margin-top: 2rem;
    }
-} */
+} 
