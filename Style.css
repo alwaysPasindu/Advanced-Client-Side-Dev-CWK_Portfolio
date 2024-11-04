@@ -196,12 +196,10 @@ span{
 }
 
 .portfolio h2{
-   /* border: 1px solid red; */
    margin-bottom: 4rem;
 }
 
 .portfolio-container{
-   /* border: 1px solid red; */
    grid-template-columns: repeat(3, 1fr);
    display: grid;
    align-items: center;
@@ -362,23 +360,6 @@ span{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contact h2{
    margin-bottom: 3rem;
 
@@ -438,6 +419,8 @@ span{
 #tree{
    color: var(--text-color);
 } 
+
+
 
 @media(max-width: 1200px) {
    html {
